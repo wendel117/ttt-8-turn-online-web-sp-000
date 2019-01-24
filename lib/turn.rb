@@ -35,7 +35,7 @@ def turn(board)
   turn=gets.strip
     index = input_to_index(turn)
   if valid_move?(board, index)
-    move(array, index, value = "X")
+    move
     display_board(board)
   else
     turn(board)
